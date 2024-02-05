@@ -279,4 +279,14 @@ header nav li::before{
     color: #000;
 }
 
+.adout_me{
+    padding: 132px 0;
+
+}
+.adout_me .ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    padding: 15px 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
 
