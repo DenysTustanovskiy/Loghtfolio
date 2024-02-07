@@ -279,14 +279,59 @@ header nav li::before{
     color: #000;
 }
 
-.adout_me{
-    padding: 132px 0;
+.about_me{
+  padding: 132px 0; 
 
 }
-.adout_me .ui-accordion .ui-accordion-header{
+.about_me .ui-accordion .ui-accordion-header{
     background-color: transparent;
     padding: 15px 10px;
     border: solid black 1px;
-    border-radius: 10px;
+    border-radius: 18px;
+    color: black;
+}
+.ui-accordion .ui-accordion-content{
+    background-color: #FFEBD8;
+    border: solid black 1px;
+    border-radius: 0 0 18px 18px;
+    border-top: none;
+}
+.about_me .ui-accordion .ui-accordion-header.ui-state-active{
+    background-color: #FFEBD8;
+    border-bottom: none;
+    border-radius: 18px 18px 0 0;
 }
 
+.ui-icon, .ui-widget-content .ui-icon{
+    background-image: none;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: none;
+}
+
+.about_me h3{
+    position: relative;
+}
+
+.about_me h3::before{
+  content:  url('../images/svg-port.svg');
+  position: absolute;
+  display: block!important;
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  right: 44px;
+  height: 32px;
+  width: 32px;
+  color: #000;
+  transform: rotate(0);
+  transition: transform .2s;
+}
+.about_me .ui-accordion .ui-accordion-header.ui-state-active::before{
+    transform: rotate(-180deg);
+}
+
+.ui-state-hover .ui-icon{
+    background-image: none;
+    
+}
