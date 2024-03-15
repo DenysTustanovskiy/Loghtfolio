@@ -88,7 +88,7 @@ section span{color: #757575;
     margin: auto
 }
 
-.title-text-inp{width: 100%; width: 100%;background-color: #333; height: 57px; padding-top: 17px; padding-bottom: 17px; padding-left: 31px; 
+.title-text-inp{ width: 100%;background-color: #333; height: 57px; padding-top: 17px; padding-bottom: 17px; padding-left: 31px; 
     color: #FFF;
     box-sizing: border-box;
     font-family: 'interregular';
@@ -251,33 +251,6 @@ padding-top: 66px;
    
 }
 
-header nav li{
-    margin-left:20px
-}
-header nav li:first-of-type a{
-    color: red;
-}
-header nav li:last-of-type a{
-    color: blue;
-}
-header nav li:nth-child(2) a{
-    color: green;
-}
-
-header nav li:after{
-    content: "<<<<<";
-    display: inline-block;
-    font-size: 20px;
-    color: #000;
-
-}
-
-header nav li::before{
-    content: ">>>>>";
-    display: inline-block;
-    font-size: 20px;
-    color: #000;
-}
 
 .about_me{
   padding: 132px 0; 
@@ -313,20 +286,7 @@ header nav li::before{
     position: relative;
 }
 
-.about_me h3::before{
-  content:  url('../images/svg-port.svg');
-  position: absolute;
-  display: block!important;
-  position: absolute;
-  top: 50%;
-  margin-top: -16px;
-  right: 44px;
-  height: 32px;
-  width: 32px;
-  color: #000;
-  transform: rotate(0);
-  transition: transform .2s;
-}
+
 .about_me .ui-accordion .ui-accordion-header.ui-state-active::before{
     transform: rotate(-180deg);
 }
@@ -334,4 +294,260 @@ header nav li::before{
 .ui-state-hover .ui-icon{
     background-image: none;
     
+}
+
+
+.featured{
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+.work{
+    max-width: 1248px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.work h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+.work h3 span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.cblock{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.rule_ratio{
+    border-radius: 16px;
+    max-width: 612px;
+    height: 716px;
+    background-color:  #f7f7f7;
+    margin-bottom: 24px;
+}
+.rule_ratio h3{
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 4px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+.rule_ratio p{
+    
+    padding-left: 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #757575;
+   
+}
+
+.dry_air{
+    border-radius: 16px;
+    max-width: 612px;
+    height: 538px;
+    background-color: #f7f7f7;
+    margin-bottom: 24px;
+}
+
+.dry_air h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #000;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 4px;
+}
+.dry_air p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-left: 24px;
+}
+
+.about_me{
+    padding-top: 130px;
+    padding-bottom: 270px;
+}
+.about_phasel{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about_phasel h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 139%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+.phasel{
+    max-width: 588px;
+}
+.phasel p{
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #000;
+}
+
+.man_man img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.experience{
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+.exe_pers{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.exe_pers h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 139%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.company{
+   padding-top: 12px;
+   width: 588px;
+ 
+   
+}
+
+
+.com_name li{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px #f0f0f0; 
+
+}
+.com_name li:first-of-type{
+    padding-top: 12px;
+}
+.com_name li:last-of-type{
+    border-bottom: none;
+}
+.com_name li a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #000;
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+.com_name li h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 153%;
+    letter-spacing: 0.04em;
+    color: #525252;
+    margin-bottom: 16px;
+}
+.com_name li p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 158%;
+    color: #757575;
+  
+}
+
+.services{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desing{
+    width: 588px;
+}
+.desing h3{
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 139%;
+   letter-spacing: 0.02em;
+   color: #000;
+   margin-bottom: 50px;
+}
+
+.de_systems ul li{
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 144%;
+   letter-spacing: 0.03em;
+   color: #000;
+   padding-bottom: 25px;
+   padding-top: 25px;
+   border-bottom: solid 1px #f0f0f0;
+}
+
+.selected{
+    width: 588px;
+}
+
+.selected h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.veja ul li{
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 153%;
+   letter-spacing: 0.04em;
+   color: #000;
+   padding-bottom: 25px;
+   padding-top: 25px;
+   border-bottom: solid 1px #f0f0f0;
 }
